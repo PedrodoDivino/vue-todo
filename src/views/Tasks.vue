@@ -30,7 +30,9 @@ export default {
   data() {
     return {
       InputSize: null,
-      tasks: [{ title: "Ir ao mercado", concluded: false }],
+      tasks: [{ title: "Ir ao mercado", concluded: false },
+      { title: "Ir ao mercado", concluded: true }
+      ],
     };
   },
   methods:{
